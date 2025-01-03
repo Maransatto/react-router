@@ -4,9 +4,17 @@ export default function ProductsPage() {
   return (
     <>
       <h1>Products Page</h1>
-      <p>
-        Back to the <Link to="/">home page</Link>
-      </p>
+      <ul>
+        <li>
+          <Link to="/products/1">Product 1</Link>
+        </li>
+        <li>
+          <Link to="/products/2">Product 2</Link>
+        </li>
+        <li>
+          <Link to="/products/3">Product 3</Link>
+        </li>
+      </ul>
     </>
   );
 }
